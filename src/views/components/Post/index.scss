@@ -1,0 +1,29 @@
+.post {
+  margin-bottom: 50px;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #eee;
+
+  h1 {
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    text-decoration: none;
+    color: #444;
+
+    &:hover {
+      color: lighten(#444, 15%);
+    }
+  }
+
+  &:nth-last-child(1) {
+    margin-bottom: 0;
+    border: 0;
+  }
+}
